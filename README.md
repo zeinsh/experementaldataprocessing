@@ -2,7 +2,7 @@
 These codes were done as part of my study in master ,
 
 
-subjectname : 
+Subject name : 
 Methods of experimental data processing
 
 part 4 : [Modeling poly harmonic signals , spikes and shifting](https://github.com/zeinsh/experementaldataprocessing/wiki/Part-4:-Modeling-poly-harmonic-signals-,-spikes-and-shifting
