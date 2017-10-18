@@ -73,8 +73,8 @@ A0=100    #amplitude
 dt=0.001  #sampling time
 fgr=1/(2.0*dt)   #sampling frequency
 
-N=2000    # number of samples
-N1=1800   # first N1 sample will be kept after cutting the signal , the last N-N1 will be set to 0
+N=1000    # number of samples
+N1=800   # first N1 sample will be kept after cutting the signal , the last N-N1 will be set to 0
 T=1       # signal duration
 
 # first : create harmonic signal
