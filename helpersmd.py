@@ -1,14 +1,14 @@
 
 # coding: utf-8
 
-# In[4]:
+# In[1]:
 
 
 import numpy as np
 import math
 
 
-# In[8]:
+# In[2]:
 
 
 def getRandomND(N): #Normal distribution
@@ -18,9 +18,10 @@ def getMyRandom(N):
     return np.sin(rn)
 
 
-# In[11]:
+# In[9]:
 
 
+#moved to statsmd
 def getStatistics(X):
     N=X.shape[0]
     xmean=X.mean()
@@ -71,7 +72,7 @@ def Rxy(X,Y,L):
     return ret/np.max(abs(ret))
 
 
-# In[3]:
+# In[4]:
 
 
 ####forier Transform
@@ -95,7 +96,7 @@ def fourierTransform(xk,N):
     return getCn(re,im,N)
 
 
-# In[9]:
+# In[5]:
 
 
 # scale the domain
@@ -107,7 +108,7 @@ def cutSignal(xk,N1,N):
     return xknew
 
 
-# In[20]:
+# In[6]:
 
 
 # Get Signal with random spikes
@@ -134,7 +135,7 @@ def shift(X,const):
     return X+const
 
 
-# In[6]:
+# In[7]:
 
 
 # Get harmonic signal samples 
@@ -150,7 +151,7 @@ def harm(A,f,dt,N):
     return y,desc
 
 
-# In[19]:
+# In[8]:
 
 
 def getYk_conv(X,h,k):

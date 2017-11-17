@@ -61,7 +61,7 @@ def splittedDomainStats(X,t):
     return ret
 
 
-# In[5]:
+# In[2]:
 
 
 def RxxStep(X,xmean,l):
@@ -90,4 +90,18 @@ def Rxy(X,Y,L):
     ymean=np.mean(Y)
     ret=np.array([RxyStep(X,Y,i) for i in xrange(L)])
     return ret/np.max(abs(ret))
+
+# using built-in function for auto correlation
+def autocorrStep(x, t=0):
+    A,B=x[0:len(x)-t].T[0],x[t:len(x)].T[0]
+    return np.corrcoef(np.array([A,B]))[0][1]
+def autocorr(x,L):
+    return np.array([[autocorrStep(X,t)]for t in xrange(L)])
+
+# using built-in function for cross correlation
+def crosscorrStep(x,y, t=0):
+    A,B=x[0:len(x)-t].T[0],y[t:len(x)].T[0]
+    return np.corrcoef(np.array([A,B]))[0][1]
+def crosscorr(x,y,L):
+    return np.array([[crosscorrStep(x,y,t)]for t in range(L)])
 
