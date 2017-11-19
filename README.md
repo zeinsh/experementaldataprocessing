@@ -12,3 +12,5 @@ part 4 : [Modeling poly harmonic signals , spikes and shifting](https://github.c
 part 5 : [Fourier Transform and spectral leakage](https://github.com/zeinsh/experementaldataprocessing/wiki/Part-5:-Fourier-transform-and-spectral-leakage)
 
 part 6 : [Convolution](https://github.com/zeinsh/experementaldataprocessing/blob/master/c-06%20convolution.ipynb)
+
+part 7 : [Signal modeling shifting&spikes](https://github.com/zeinsh/experementaldataprocessing/blob/master/c_07.ipynb)
