@@ -167,7 +167,7 @@ def getYk_conv(X,h,k):
     N=X.shape[0]
     M=h.shape[0]
     num=min(k,M)
-    ser=[X[k-l]*h[l] for l in xrange(num) if k-l<N]
+    ser=[X[k-l-1]*h[l] for l in xrange(num) if k-l-1<N]
     return sum(ser)
 def convolution(X,h):
     """
