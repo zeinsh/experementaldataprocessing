@@ -14,3 +14,7 @@ part 5 : [Fourier Transform and spectral leakage](https://github.com/zeinsh/expe
 part 6 : [Convolution](https://github.com/zeinsh/experementaldataprocessing/blob/master/c-06%20convolution.ipynb)
 
 part 7 : [Signal modeling shifting&spikes](https://github.com/zeinsh/experementaldataprocessing/blob/master/c_07.ipynb)
+
+part 8 : [Shot noise](https://github.com/zeinsh/experementaldataprocessing/blob/master/c_08.ipynb)
+
+
