@@ -19,3 +19,6 @@ part 8 : [Shot noise](https://github.com/zeinsh/experementaldataprocessing/blob/
 
 part 9 : [Low pass filter](https://github.com/zeinsh/experementaldataprocessing/blob/master/c_09.ipynb)
 
+part 10 : [Filters - hpf bpf bsf](https://github.com/zeinsh/experementaldataprocessing/blob/master/c_10.ipynb)
+
+part 11 : [Apply filters to signal](https://github.com/zeinsh/experementaldataprocessing/blob/master/c_11.ipynb)
