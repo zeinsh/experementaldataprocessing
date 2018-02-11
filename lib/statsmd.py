@@ -1,13 +1,4 @@
-
-# coding: utf-8
-
-# In[6]:
-
-
 import numpy as np
-
-
-# In[4]:
 
 
 def getStatistics(X):
@@ -95,13 +86,16 @@ def Rxy(X,Y,L):
 def autocorrStep(x, t=0):
     A,B=x[0:len(x)-t].T[0],x[t:len(x)].T[0]
     return np.corrcoef(np.array([A,B]))[0][1]
-def autocorr(x,L):
+def autocorr(X,L):
+    X-=X.mean()
     return np.array([[autocorrStep(X,t)]for t in xrange(L)])
 
 # using built-in function for cross correlation
 def crosscorrStep(x,y, t=0):
     A,B=x[0:len(x)-t].T[0],y[t:len(x)].T[0]
     return np.corrcoef(np.array([A,B]))[0][1]
-def crosscorr(x,y,L):
-    return np.array([[crosscorrStep(x,y,t)]for t in range(L)])
+def crosscorr(X,Y,L):
+    X-=X.mean()
+    Y-=Y.mean()
+    return np.array([[crosscorrStep(X,Y,t)]for t in range(L)])
 
