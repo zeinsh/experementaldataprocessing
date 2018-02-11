@@ -1,7 +1,3 @@
-# Processing of eperimental data (practical part)
-These codes were done as part of my study in master ,
-
-
 Subject name : 
 Methods of experimental data processing
 
@@ -27,7 +23,3 @@ part 10 : [Filters - hpf bpf bsf](https://github.com/zeinsh/experementaldataproc
 part 11 : [Apply filters to signal](https://github.com/zeinsh/experementaldataprocessing/blob/master/semester1/c_11.ipynb)
 
 part 12 : [process wav file](https://github.com/zeinsh/experementaldataprocessing/blob/master/semester1/c_12.ipynb)
-
-
-Semester 2
----------------------
